@@ -44,7 +44,7 @@ const HomePage: React.FC = () => {
           <h2 className="text-2xl font-serif mb-4 text-[#1A2238] tracking-wide">{personalInfo.name}</h2>
           <div className="relative group">
             <img 
-              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              src="Screenshot 2025-06-03 200409.png" 
               alt="Nida Shahzad"
               className="w-48 h-48 object-cover rounded-full border-4 border-[#F7B538] shadow-lg transition-transform duration-300 group-hover:scale-105"
             />
