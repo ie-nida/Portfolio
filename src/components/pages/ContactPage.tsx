@@ -1,8 +1,7 @@
 import React from 'react';
 import { personalInfo } from '../data/personal';
 import { Mail, Phone, MapPin, Github, Linkedin, FileText } from 'lucide-react';
-import { CVButton } from '../ui/CVButton';
-import { Link } from 'react-router-dom';
+
 
 
 const ContactPage: React.FC = () => {
@@ -169,3 +168,5 @@ const ContactPage: React.FC = () => {
     </div>
   );
 };
+
+export default ContactPage;
