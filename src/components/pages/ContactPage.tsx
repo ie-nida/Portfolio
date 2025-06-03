@@ -2,6 +2,8 @@ import React from 'react';
 import { personalInfo } from '../data/personal';
 import { Mail, Phone, MapPin, Github, Linkedin, FileText } from 'lucide-react';
 import { CVButton } from '../ui/CVButton';
+import { Link } from 'react-router-dom';
+
 
 const ContactPage: React.FC = () => {
   return (
@@ -83,7 +85,7 @@ const ContactPage: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="/cv.pdf" 
+                href="/CV.docx" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-[#1A2238] text-white p-3 rounded-full hover:bg-[#F7B538] hover:text-[#1A2238] transition-colors"
@@ -154,12 +156,16 @@ const ContactPage: React.FC = () => {
           
           <div className="mt-6 pt-6 border-t border-gray-200 text-center">
             <p className="text-gray-600 mb-4">Prefer to view my resume?</p>
-            <CVButton text="Download CV" downloadable={true} />
+            <a 
+              href="/CV.docx" 
+              download
+              className="inline-block px-6 py-3 bg-[#1A2238] text-white rounded-md hover:bg-[#2D3A5A] transition-colors text-center"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
-export default ContactPage;

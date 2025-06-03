@@ -59,7 +59,7 @@ const HomePage: React.FC = () => {
           <div className="flex flex-wrap gap-4 mb-8">
             <CVButton />
             <Link 
-              to="/contact" 
+              to="CV.docx" 
               className="inline-flex items-center px-6 py-3 bg-white border-2 border-[#1A2238] text-[#1A2238] rounded-md hover:bg-gray-50 transition-all duration-300 hover:shadow-md"
             >
               Contact Me
