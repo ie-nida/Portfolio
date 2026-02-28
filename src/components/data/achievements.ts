@@ -55,6 +55,6 @@ export const achievements: Achievement[] = [
     description: 'Certificate of completion for Machine Learning with Python: Foundations course awarded to Nida Shahzad by LinkedIn Learning.',
     date: 'Nov 22, 2024',
     icon: 'award',
-    certificate: '1732294755315.jpg'
+    certificate: '1732294755315.jp'
   }
 ];
